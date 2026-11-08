@@ -5,3 +5,6 @@ input { padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 14
 button { padding: 10px; background: #1f3a5f; color: #fff; border: none; border-radius: 6px; font-size: 15px; cursor: pointer; }
 .error { color: #c0392b; margin: 0; font-size: 14px; }
 .success { color: #1e8449; margin: 0; font-size: 14px; }
+.label { margin: 4px 0 0; font-size: 14px; font-weight: bold; }
+.checks { display: flex; flex-wrap: wrap; gap: 10px; }
+.checks label { font-size: 14px; display: flex; align-items: center; gap: 4px; }
