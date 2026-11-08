@@ -1,5 +1,4 @@
-import { Navigate, useNavigate } from 'react-router-dom'
-
+import { Link, Navigate, useNavigate } from 'react-router-dom'
 function Dashboard() {
   const navigate = useNavigate()
   const token = localStorage.getItem('token')
@@ -15,6 +14,7 @@ function Dashboard() {
     <div className="card">
       <h2>Welcome to StyleSphere</h2>
       <p>Your wardrobe will appear here.</p>
+      <p><Link to="/profile">Edit profile</Link></p>
       <button onClick={logout}>Log out</button>
     </div>
   )
