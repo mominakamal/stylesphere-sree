@@ -15,6 +15,7 @@ function Dashboard() {
       <h2>Welcome to StyleSphere</h2>
       <p>Your wardrobe will appear here.</p>
       <p><Link to="/profile">Edit profile</Link></p>
+      <p><Link to="/wardrobe/add">Add clothing item</Link></p>
       <button onClick={logout}>Log out</button>
     </div>
   )
